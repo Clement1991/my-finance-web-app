@@ -49,11 +49,11 @@ This is the databse which contains all the relevant tables which will be used to
 
 ## Specification
 
-### register.py and register.html
+### /register and register.html
 
 The `/register` route in `app.py` allows a user to register for an account via `register.html`. The user is required to complete all fields. An `apology` is rendered if the user’s input is blank, invalid or if the username already exists. Users' account information is stored on the `users` table in the database.
 
-### login.py and login.html
+### /login and login.html
 
 The `/login` route is used to log users into their account via `login.html`. Validation is done to ensure that, the username and password provided by the user exists in the database. If a user's record exists, the user is successfully logged into their account and directed to the root directory `index.html`, which at this stage, will contain a table with no data until a user buys or sells shares. The user's `id` from the database is then stored in Flask's `session` for identification.
 
