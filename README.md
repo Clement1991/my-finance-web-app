@@ -2,7 +2,8 @@
 
 By Clement Gyasi Siaw
 
-Video overview: <>
+Video overview: [Watch Video Overview](https://www.youtube.com/watch?v=AKmR90ImlPI)
+Web app: [Finance Web Application](https://my-finance-web-app-ea4ba5a66c23.herokuapp.com)
 
 ## Scope
 
